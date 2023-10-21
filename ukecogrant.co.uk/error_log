@@ -1,0 +1,19 @@
+[11-Oct-2023 16:13:22 UTC] PHP Warning:  Undefined property: stdClass::$publish in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-data/src/Listeners/Commerce.php on line 56
+[11-Oct-2023 16:13:22 UTC] PHP Warning:  Undefined property: stdClass::$publish in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-data/src/Listeners/Commerce.php on line 72
+[20-Oct-2023 06:00:56 UTC] PHP Warning:  include(/home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/composer/../newfold-labs/wp-module-data/src/Helpers/SiteHealth.php): Failed to open stream: No such file or directory in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/composer/ClassLoader.php on line 576
+[20-Oct-2023 06:00:56 UTC] PHP Warning:  include(): Failed opening '/home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/composer/../newfold-labs/wp-module-data/src/Helpers/SiteHealth.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/composer/ClassLoader.php on line 576
+[20-Oct-2023 06:00:56 UTC] PHP Fatal error:  Uncaught Error: Class "NewfoldLabs\WP\Module\Data\Helpers\SiteHealth" not found in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-data/src/Listeners/SiteHealth.php:36
+Stack trace:
+#0 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/class-wp-hook.php(312): NewfoldLabs\WP\Module\Data\Listeners\SiteHealth->tests_run('{"good":18,"rec...')
+#1 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/option.php(1041): do_action('set_transient_h...', '{"good":18,"rec...', 0, 'health-check-si...')
+#4 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-admin/includes/class-wp-site-health.php(3309): set_transient('health-check-si...', '{"good":18,"rec...')
+#5 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/class-wp-hook.php(310): WP_Site_Health->wp_cron_scheduled_check()
+#6 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#9 {main}
+  thrown in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-data/src/Listeners/SiteHealth.php on line 36
+[20-Oct-2023 09:33:03 UTC] PHP Warning:  Undefined property: stdClass::$publish in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php on line 61
+[20-Oct-2023 09:33:03 UTC] PHP Warning:  Undefined property: stdClass::$publish in /home1/rectubmx/public_html/demo51.rectusmedia.in/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php on line 77
